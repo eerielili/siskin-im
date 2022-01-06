@@ -20,7 +20,7 @@ NOTE: Conversations will only be saved if they took place on this device, or if 
 
 You may clear conversations from the archive by dragging the name or MUC conversation to the left and selecting delete. If you are removing a MUC chat, you will leave the chatroom.
 
-image:images\delchat.png[]
+image:../images/delchat.png[]
 
 === New/Join MUC
 Tapping the plus button on the top right will bring up the new/join muc panel.  This interface will allow you to either join an existing or create a new MUC on your chosen server.
