@@ -12,7 +12,7 @@ This section contains information about advanced settings and options that are a
 == Account Settings
 For each connected account, there are sever-specific settings that are available.  This may be brought up by selecting More... and then choosing the account you wish to edit.
 
-image::images\acctsetting.png[]
+image::../images/acctsetting.png[]
 
 *General*
 

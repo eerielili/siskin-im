@@ -42,7 +42,7 @@ Tigase Messenger for iOS can be installed the same way any apple approved app ca
 == Account Setup
 Upon running Tigase Messenger for iOS for the first time, you will be greeted with the following screen:
 
-image::images\home.png[]
+image::../images/home.png[]
 
 Your options are to xref:reg[register] for a new account, or to use an xref:existing[existing] account.
 
@@ -54,11 +54,11 @@ If you wish to use a custom domain, enter the domain address in the top bar, the
 
 You will be presented with an error message if it is not supported.
 
-image::images\regfailure.png[]
+image::../images/regfailure.png[]
 
 If registration is supported, you will see the following prompts:
 
-image::images\registernew.png[]
+image::../images/registernew.png[]
 
 Fill out the fields for username, password, and E-mail.  You do not need to add the domain to your username, it will be added for you so your JID will look like `yourusername@domain.com`
 
