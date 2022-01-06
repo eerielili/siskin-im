@@ -12,7 +12,7 @@ The menu interface for Tigase Messenger for iOS is broken up into three main pan
 == Recent
 The recent menu displays recent conversations with other users, and also serves as a way to navigate between multi-user chatrooms (MUCs).  Each conversation will be displayed here along with an icon indicating user or room status.
 
-image::images\recent.png[]
+image::../images/recent.png[]
 
 Tapping one of these conversations will bring up the chat, whether it is MUC or one on one.  This panel also serves as an archive of sorts, and previous conversations with users will be accessible in this panel.
 
@@ -25,7 +25,7 @@ image:images\delchat.png[]
 === New/Join MUC
 Tapping the plus button on the top right will bring up the new/join muc panel.  This interface will allow you to either join an existing or create a new MUC on your chosen server.
 
-image::images\join.png[]
+image::../images/join.png[]
 
 - Account: This is the account that will handle data for the MUC chatroom. This is available for users who have multiple accounts logged in.
 
@@ -43,13 +43,13 @@ The recent panel will now display the chatroom, you may tap it to enter the MUC 
 
 When in a chatroom, you may view the occupants by tapping Occupants, and will be given a list and statuses of the room participants.
 
-image::images\occu.png[]
+image::../images/occu.png[]
 
 [contacts]
 == Contacts
 The contacts panel serves as your Roster, displaying all the contacts you have on your roster, and displaying statuses along with their names.  Tigase Messenger for iOS supports vCard-Temp Avatars and will retrieve them if they are uploaded by a user.
 
-image::images\roster.png[]
+image::../images/roster.png[]
 
 Contacts with green icons are available or free to chat status. +
 Contacts with yellow icons are away or extended away. +
@@ -61,7 +61,7 @@ Note that contacts will remain gray if you decide not to allow presence notifica
 You may remove or edit contacts by dragging a contact to the left and tapping Delete.  You also have the ability to edit a contact, explained in the next section.
 Deleting the contact will remove them from your roster, and remove any presence sharing permissions from the contact.
 
-image::images\deluser.PNG[]
+image::../images/deluser.PNG[]
 
 You may also filter contacts by status by selecting All to display all users, or Available to hide users that are offline or unavailable.
 
@@ -71,12 +71,12 @@ Here, you may also decide to selectively approve or deny subscription requests t
 If you do not send presence updates, they will not know whether you are online, busy, or away.
 If you elect not to receive presence updates, you will not receive information if they are online, busy or away.
 
-image::\images\edituser.png[]
+image::../images/edituser.png[]
 
 === Adding a contact
 To add a contact, tap the plus button in the upper left and the add contact screen will show.
 
-image::images\adduser.png[]
+image::../images/adduser.png[]
 
 First, select the account friends list you wish the new contact to be added too. Then type in the JID of the user, do not use resources, just bare JID.  You may enter a friendly nickname for the contact to be added to your friend list, this is optional.
 When adding users, you have two options to select:
@@ -88,7 +88,7 @@ NOTE: These options are on by default and enable Tigase Messenger for iOS to beh
 
 If you do decide to receive presence updates when adding a new contact, you will be presented with this screen when they add you back:
 
-image::images\presreq.png[]
+image::../images/presreq.png[]
 
 By tapping yes, you will receive notifications of presence changes from your contact.  This subscription will be maintained by the server, and will stay active with your friends list.
 
@@ -100,7 +100,7 @@ TIP: If somebody not on your friends list adds you, you will receive this same m
 == More
 The more panel is your program and account settings panel, from here you can change program settings and general account information.
 
-image::images\settings.png[]
+image::../images/settings.png[]
 
 === Accounts
 This will list your current accounts, if an avatar has been defined for the account, it will show on the left side but by default the Tigase logo will be used.
@@ -124,7 +124,7 @@ We have included a badging system on accounts to help indicate if connections is
 If you wish to remove an account, swipe left and select Delete.
 You will be asked for a confirmation whether you want to remove it from the application, and if the server supports it, you may delete it from the server removing roster, presence subscriptions, and potentially saved history.
 
-image::images\delacct.png[]
+image::../images/delacct.png[]
 
 WARNING: Deleting your account from the server is a permanent and non-reversible action.
 
@@ -150,7 +150,7 @@ To save data usage, your account status will be managed automatically using the 
 
 However, you may override this logic by tapping Automatic and selecting a status manually.
 
-image::images\setstatus.png[]
+image::../images/setstatus.png[]
 
 ==== Show tag
 Underneath is a blank space where you can set your show tag
@@ -161,7 +161,7 @@ Editing this text section will change the `<show>` tags in your status.  Once yo
 === Settings
 Below are settings for the operation and behavior of the application.
 
-image:\images\chatsettings.png[]
+image:../images/chatsettings.png[]
 
 ==== Chats
 *List of Messages*
